@@ -1,0 +1,21 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
+    return (
+        <div>
+            <Link to='/'>
+                <img src={assets.logo} alt="logo" />
+            </Link>
+            <div className='max-sm:fixed max-sm:h-screen max-sm:w-full max-sm:top-16 max-sm:border-t border-borderColor right-0 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 max-sm:p-4'>
+                {menuLinks.map((link, index) => (
+                    <Link key={index} to={link.path}>
+                        {link.name}
+                    </Link>
+                ))}
+            </div>
+        </div>
+    )
+}
+
+export default Navbar
