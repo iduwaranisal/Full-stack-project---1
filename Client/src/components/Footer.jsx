@@ -10,7 +10,7 @@ export default function Footer() {
                     font-family: "Poppins", sans-serif;
                 }
             `}</style>
-            <footer className='bg-slate-900 py-12 px-4 sm:px-6 lg:px-8'>
+            <footer className='bg-slate-900 py-12 px-4 sm:px-6 lg:px-8 mt-20'>
                 <div className='w-full max-w-7xl mx-auto'>
             
                     <div className="flex flex-wrap justify-between gap-y-12 lg:gap-x-8">
