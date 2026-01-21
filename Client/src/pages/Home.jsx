@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       <FeaturedSection />
       <Banner />
-      <Title title='What is our Customers Say' subTitle='Are You Interest?'/>
+      <Title title="What our customers say" subTitle="Are you interested? Read reviews from travelers across Sri Lanka." badge="Reviews" />
       <Testimonial/>
       <Newsletter />
       
